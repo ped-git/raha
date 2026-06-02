@@ -1107,6 +1107,72 @@
   }
  
 
+  .small-bullet-near {
+  margin-top: 0mm;
+  margin-right: 15mm;
+  margin-bottom: 0mm;
+  margin-left: 10mm;
+  text-align: justify;
+  text-indent: -5mm;
+}
+
+.small-bullet-far {
+  margin-top: 0mm;
+  margin-right: 15mm;
+  margin-bottom: 4.5mm;
+  margin-left: 10mm;
+  text-align: justify;
+  text-indent: -5mm;
+}
+
+.inner-paragraph-1 {
+  display: inline-block;
+  vertical-align: top;
+  text-align: justify;
+  margin-top: 0mm;
+  width: 148mm;
+  text-indent: 0mm;
+}
+
+.inner-paragraph-2 {
+  display: inline-block;
+  vertical-align: top;
+  text-align: justify;
+  margin-top: 0mm;
+  width: 160mm;
+  text-indent: 0mm;
+}
+
+.zero-margin {
+  margin-top: 0mm;
+  margin-right: 0mm;
+  margin-bottom: 0mm;
+  margin-left: 0mm;
+  text-align: justify;
+  text-indent: 0mm;
+}
+
+.zero-margin.far {
+  margin-bottom: 4.5mm;
+}
+
+.zero-margin2 {
+  margin-top: 0mm;
+  margin-right: 4mm;
+  margin-bottom: 0mm;
+  margin-left: 0mm;
+  text-align: justify;
+  text-indent: -4mm;
+}
+
+.zero-margin6 {
+  margin-top: -1mm;
+  margin-right: 4mm;
+  margin-bottom: 0mm;
+  margin-left: 0mm;
+  text-align: justify;
+  text-indent: -4mm;
+}
 
 
  
