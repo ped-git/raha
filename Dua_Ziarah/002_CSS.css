@@ -180,27 +180,7 @@
     position: relative; /* Set the container as a relative position */
     page-break-inside: auto; /* or auto */
   }
- 
-  .inner-paragraph-1 {
-    display: inline-block;
-    page-break-inside: auto;
-    vertical-align: top;
-    text-align: justify;
-    margin-top:0mm;
-    width: 150mm;
-    text-indent:0mm;
-  }
- 
 
- 
-  .inner-paragraph-2 {
-    display: inline-block;
-    page-break-inside: auto;
-    vertical-align: top;
-    text-align: justify;
-    margin-top:0mm;
-    width: 125mm;
-  }
 
   .inner-paragraph-3 {
     display: inline-block;
@@ -208,7 +188,7 @@
     vertical-align: top;
     text-align: justify;
     margin-top:0.5mm;
-    width: 140mm;
+    width: 145mm;
     text-indent:0mm;
   }
  
