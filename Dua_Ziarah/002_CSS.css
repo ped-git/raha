@@ -180,174 +180,6 @@
     position: relative; /* Set the container as a relative position */
     page-break-inside: auto; /* or auto */
   }
-
-
-  .inner-paragraph-3 {
-    display: inline-block;
-    page-break-inside: auto;
-    vertical-align: top;
-    text-align: justify;
-    margin-top:0.5mm;
-    width: 145mm;
-    text-indent:0mm;
-  }
- 
-
- 
-  .inner-paragraph-4 {
-    display: inline-block;
-    page-break-inside: auto;
-    vertical-align: top;
-    text-align: justify;
-    margin-top:1mm;
-    width: 80mm;
-    text-indent:0mm;
-  }
- 
-
- 
-  .inner-paragraph-5 {
-    display: inline-block;
-    page-break-inside: auto;
-    vertical-align: top;
-    text-align: justify;
-    margin-top:-1mm;
-    width: 140mm;
-    text-indent:0mm;
-  }
- 
-
-  .inner-paragraph-6 {
-    display: inline-block;
-    page-break-inside: auto;
-    vertical-align: top;
-    text-align: justify;
-    margin-top:1mm;
-    width: 180mm;
-    text-indent:0mm;
-  }
- 
-
- 
-  .inner-paragraph-7 {
-    display: inline-block;
-    page-break-inside: auto;
-    vertical-align: top;
-    text-align: justify;
-    margin-top:0.0mm;
-    width: 161mm;
-  }
- 
-
- 
-  .inner-paragraph-8 {
-    display: inline-block;
-    page-break-inside: auto;
-    vertical-align: top;
-    text-align: justify;
-    margin-top:-1.0mm;
-    width: 152mm;
-  }
- 
-
- 
-  .inner-paragraph-9 {
-    display: inline-block;
-    page-break-inside: auto;
-    vertical-align: top;
-    text-align: justify;
-    margin-top:0.5mm;
-    width: 152mm;
-  }
- 
-
- 
-  .inner-paragraph-10 {
-    display: inline-block;
-    page-break-inside: auto;
-    vertical-align: top;
-    text-align: justify;
-    margin-top:0.5mm;
-    width: 143mm;
-  }
- 
-
- 
-  .inner-paragraph-11 {
-    display: inline-block;
-    page-break-inside: auto;
-    vertical-align: top;
-    text-align: justify;
-    margin-top:0mm;
-    width: 126mm;
-  }
- 
-
- 
-  .inner-paragraph-12 {
-    display: inline-block;
-    page-break-inside: auto;
-    vertical-align: top;
-    text-align: justify;
-    margin-top:0.5mm;
-    width: 136mm;
-  }
- 
-
- 
-  .inner-paragraph-13 {
-    display: inline-block;
-    page-break-inside: auto;
-    vertical-align: top;
-    text-align: justify;
-    margin-top:-1.5mm;
-    width: 161mm;
-  }
- 
-
- 
-  .inner-paragraph-14 {
-    display: inline-block;
-    page-break-inside: auto;
-    vertical-align: top;
-    text-align: justify;
-    margin-top:-1.5mm;
-    width: 152mm;
-  }
- 
-
- 
-  .inner-paragraph-15 {
-    display: inline-block;
-    page-break-inside: auto;
-    vertical-align: top;
-    text-align: justify;
-    margin-top:1.0mm;
-    width: 117mm;
-  }
- 
-
- 
-  .inner-paragraph-16 {
-    display: inline-block;
-    page-break-inside: auto;
-    vertical-align: top;
-    text-align: justify;
-    margin-top:0.0mm;
-    width: 79mm;
-  }
- 
-
-
- 
-  .inner-paragraph-continue {
-    display: inline-block;
-    vertical-align: bottom;
-    text-align: center;
-    background-color: rgb(150, 150, 150);
-    margin-top:0mm;
-    text-indent:0mm;
-  }
  
 
  
@@ -1065,12 +897,12 @@
   }
 
   .backhighlight9 {
-    text-shadow: 4px 4px 4px rgba(5, 145, 5, 0.7);
+    text-shadow: 0px 0px 7px rgba(5, 145, 5, 1.0);
     /*background-color:  rgba(240, 255, 240);*/
   }
 
   .backhighlight10 {
-    text-shadow: 2px 2px 4px rgba(180, 46, 26, 0.7);
+    text-shadow: 0px 0px 7px rgba(180, 46, 26, 1.0);
     /*background-color:  rgba(240, 255, 240);*/
   }
 
@@ -1133,6 +965,31 @@
   text-indent: 0mm;
 }
 
+
+
+  .inner-paragraph-3 {
+    display: inline-block;
+    page-break-inside: auto;
+    vertical-align: top;
+    text-align: justify;
+    margin-top:0.5mm;
+    width: 145mm;
+    text-indent:0mm;
+  }
+ 
+
+ 
+  .inner-paragraph-4 {
+    display: inline-block;
+    page-break-inside: auto;
+    vertical-align: top;
+    text-align: justify;
+    margin-top:0mm;
+    width: 141mm;
+    text-indent:0mm;
+  }
+
+
 .zero-margin {
   margin-top: 0mm;
   margin-right: 0mm;
@@ -1153,6 +1010,15 @@
   margin-left: 0mm;
   text-align: justify;
   text-indent: -4mm;
+}
+
+.zero-margin3 {
+  margin-top: 0mm;
+  margin-right: 9.5mm;
+  margin-bottom: 0mm;
+  margin-left: 0mm;
+  text-align: justify;
+  text-indent: -9.5mm;
 }
 
 .zero-margin6 {
