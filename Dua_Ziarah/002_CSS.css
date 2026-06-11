@@ -436,6 +436,7 @@
     border-left: 0;
     border-right: 0;
     border-top: 0;
+    padding: 0px 0px;
   }
 
   .boxed.underline-gradient-far2 {
@@ -455,6 +456,7 @@
     border-left: 0;
     border-right: 0;
     border-top: 0;
+    padding: 0px 0px;
   }
 
   .boxed.underline-gradient1-far2 {
@@ -482,10 +484,11 @@
 }
 
 .boxed.underline-green {
-    border-bottom: 1px dashed rgb(100, 180, 100);
+    border-bottom: 1px dashed rgb(180, 210, 180);
     border-left: 0;
     border-right: 0;
     border-top: 0;
+    padding: 0px 0px;
   }
 
   .boxed.underline-green-far {
@@ -503,13 +506,15 @@
     border-left: 0;
     border-right: 0;
     border-top: 0;
+    padding: 0px 0px;
   }
 
   .boxed.underline-solidgreen {
-    border-bottom: 1px solid rgb(100, 180, 100);
+    border-bottom: 1px solid rgb(180, 210, 180);
     border-left: 0;
     border-right: 0;
     border-top: 0;
+    padding: 0px 0px;
   }
 
   .boxed.underline-solidgreen-far {
@@ -533,6 +538,7 @@
     border-left: 0;
     border-right: 0;
     border-top: 0;
+    padding: 0px 0px;
   }
 
   .boxed.underline-solidblue {
@@ -540,6 +546,7 @@
     border-left: 0;
     border-right: 0;
     border-top: 0;
+    padding: 0px 0px;
   }
 
   .boxed.underline-blue-far {
@@ -551,7 +558,7 @@
   }
 
   .boxed.underline-red {
-    border-bottom: 1px dashed rgb(220, 150, 150);
+    border-bottom: 1px dashed rgb(220, 180, 180);
     border-left: 0;
     border-right: 0;
     border-top: 0;
@@ -563,6 +570,7 @@
     border-left: 0;
     border-right: 0;
     border-top: 0;
+    padding: 0px 0px;
   }
 
   .boxed.underline-dottedred-far {
@@ -574,14 +582,15 @@
   }
 
   .boxed.underline-solidred {
-    border-bottom: 1px solid rgb(220, 150, 150);
+    border-bottom: 1px solid rgb(230, 190, 190);
     border-left: 0;
     border-right: 0;
     border-top: 0;
+    padding: 0px 0px;
   }
 
   .boxed.underline-solidred-far {
-    border-bottom: 1px solid rgb(240, 170, 170);
+    border-bottom: 1px solid rgb(230, 190, 190);
     border-left: 0;
     border-right: 0;
     border-top: 0;
@@ -603,6 +612,7 @@
     border-left: 0;
     border-right: 0;
     border-top: 0;
+    padding: 0px 0px;
   }
 
   .boxed.underline-black-1 {
@@ -614,7 +624,7 @@
   }
 
   .boxed.underline-black-far {
-    border-bottom: 1px solid rgb(150, 150, 150);
+    border-bottom: 1px solid rgb(200, 200, 200);
     border-left: 0;
     border-right: 0;
     border-top: 0;
