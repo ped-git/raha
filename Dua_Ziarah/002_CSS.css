@@ -1006,6 +1006,16 @@
     text-indent:0mm;
   }
 
+    .inner-paragraph-6 {
+    display: inline-block;
+    page-break-inside: auto;
+    vertical-align: top;
+    text-align: justify;
+    margin-top:0mm;
+    width: 100mm;
+    text-indent:0mm;
+  }
+
 
 .zero-margin {
   margin-top: 0mm;
