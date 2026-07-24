@@ -222,7 +222,7 @@
     margin-bottom:0mm;
     margin-left:10mm;
     text-align:justify;
-    text-indent:-6.5mm;'
+    text-indent:-6.5mm;
   }
  
 
@@ -233,7 +233,7 @@
     margin-bottom:4.5mm;
     margin-left:10mm;
     text-align:justify;
-    text-indent:-6.5mm;'
+    text-indent:-6.5mm;
   }
  
 
@@ -1084,7 +1084,7 @@
 body {
   direction: rtl;
   text-align: right;
-  width: 190mm;
+  width: 210mm;
   font-size: 4.5mm;
   line-height: 240%;
   font-family: 'KFGQPC Uthman Taha Naskh';
