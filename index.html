@@ -42,6 +42,33 @@
         ul li {
             margin-bottom: 1mm; /* Optional: Add space between list items */
         }
+
+        .ziyarat-tree,
+        .ziyarat-tree ul {
+            display: block;
+            grid-template-columns: none;
+            gap: 0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .ziyarat-tree details { margin-bottom: 1mm; }
+        .ziyarat-tree summary { color: blue; cursor: pointer; list-style: none; }
+        .ziyarat-tree summary::-webkit-details-marker { display: none; }
+        .ziyarat-tree summary::before {
+            content: "▸";
+            display: inline-block;
+            margin-left: 0.6em;
+            transition: transform 0.15s ease;
+        }
+        .ziyarat-tree details[open] > summary::before { transform: rotate(90deg); }
+        .ziyarat-tree details > ul { margin-right: 8mm; }
+        .ziyarat-tree a { display: inline-block; }
+
+        @media (max-width: 480px) {
+            .ziyarat-tree summary,
+            .ziyarat-tree a { font-size: 7mm; }
+        }
     </style>
 
 </head>
@@ -63,6 +90,43 @@
 <li><a href="https://ped-git.github.io/raha/Dua_Ziarah/001_Dua_Ahd_html.html">دعاء العهد</a></li>
 <li><a href="https://ped-git.github.io/raha/Dua_Ziarah/002_Ziarah_Ashura_html.html">زیارة عاشوراء</a></li>
 <li><a href="https://ped-git.github.io/raha/Dua_Ziarah/003_Dua_Komail_html.html">دعاء الكميل</a></li>
+<li>
+    <details class="ziyarat-tree">
+        <summary>زیارت‌ها</summary>
+        <ul>
+            <li><details><summary>حضرت محمد (ص)</summary><ul><li><a href="Dua_Ziarah/ziyarat_prophet/ziarat_prophet.html">زیارت حضرت محمد (ص)</a></li></ul></details></li>
+            <li><details><summary>حضرت فاطمه زهرا (س)</summary><ul>
+                <li><a href="Dua_Ziarah/ziyarat_fatima/ziarat_mumtahana_complete.html">زیارت یا ممتحنه و سلام بر حضرت زهرا (س)</a></li>
+                <li><a href="Dua_Ziarah/ziyarat_fatima/ziarat_fatima_extended.html">زیارت مفصل حضرت فاطمه زهرا (س)</a></li>
+                <li><a href="Dua_Ziarah/ziyarat_fatima/ziarat_fatima_and_salawat_fourteen.html">زیارت حضرت زهرا (س) و صلوات بر چهارده معصوم</a></li>
+                <li><a href="Dua_Ziarah/ziyarat_fatima/ziarat_short_sayyidat_nisa.html">زیارت کوتاه سیده زنان عالم</a></li>
+                <li><a href="Dua_Ziarah/ziyarat_fatima/ziarat_fatima_extended_second_version.html">زیارت مفصل حضرت زهرا (س)، نسخه دوم</a></li>
+                <li><a href="Dua_Ziarah/ziyarat_fatima/ziarat_mumtahana_variant_1.html">زیارت یا ممتحنه، روایت اول</a></li>
+                <li><a href="Dua_Ziarah/ziyarat_fatima/ziarat_mumtahana_variant_2.html">زیارت یا ممتحنه، روایت دوم</a></li>
+                <li><a href="Dua_Ziarah/ziyarat_fatima/ziarat_mumtahana_variant_3.html">زیارت یا ممتحنه، روایت سوم</a></li>
+            </ul></details></li>
+            <li><details><summary>امام علی (ع)</summary><ul><li><a href="Dua_Ziarah/ziyarat_imam_ali/ziarat_imam_ali.html">زیارت امام علی (ع)</a></li></ul></details></li>
+            <li><details><summary>امام حسن مجتبی (ع)</summary><ul><li><a href="Dua_Ziarah/ziyarat_imam_hasan/ziarat_imam_hasan.html">زیارت امام حسن مجتبی (ع)</a></li></ul></details></li>
+            <li><details><summary>امام حسین (ع)</summary><ul>
+                <li><a href="Dua_Ziarah/002_Ziarah_Ashura_html.html">زیارة عاشوراء</a></li>
+                <li><a href="Dua_Ziarah/ziyarat_imam_husayn/ziarat_waritha.html">زیارت وارث - امام حسین (ع)</a></li>
+            </ul></details></li>
+            <li><details><summary>امام سجاد (ع)</summary><ul><li><a href="Dua_Ziarah/ziyarat_imam_sajjad/ziarat_imam_sajjad.html">زیارت امام سجاد (ع)</a></li></ul></details></li>
+            <li><details><summary>امام محمد باقر (ع)</summary><ul><li><a href="Dua_Ziarah/ziyarat_imam_baqir/ziarat_imam_baqir.html">زیارت امام محمد باقر (ع)</a></li></ul></details></li>
+            <li><details><summary>امام جعفر صادق (ع)</summary><ul><li><a href="Dua_Ziarah/ziyarat_imam_sadiq/ziarat_imam_sadiq.html">زیارت امام جعفر صادق (ع)</a></li></ul></details></li>
+            <li><details><summary>امام موسی کاظم (ع)</summary><ul><li><a href="Dua_Ziarah/ziyarat_imam_kazim/ziarat_imam_kazim.html">زیارت امام موسی کاظم (ع)</a></li></ul></details></li>
+            <li><details><summary>امام رضا (ع)</summary><ul><li><a href="Dua_Ziarah/ziyarat_imam_ridha/ziarat_imam_ridha.html">زیارت امام رضا (ع)</a></li></ul></details></li>
+            <li><details><summary>امام محمد تقی، امام جواد (ع)</summary><ul><li><a href="Dua_Ziarah/ziyarat_imam_jawad/ziarat_imam_jawad.html">زیارت امام محمد تقی، امام جواد (ع)</a></li></ul></details></li>
+            <li><details><summary>امام علی النقی، امام هادی (ع)</summary><ul><li><a href="Dua_Ziarah/ziyarat_imam_hadi/ziarat_imam_hadi.html">زیارت امام علی النقی، امام هادی (ع)</a></li></ul></details></li>
+            <li><details><summary>امام حسن عسکری (ع)</summary><ul><li><a href="Dua_Ziarah/ziyarat_imam_askari/ziarat_imam_askari.html">زیارت امام حسن عسکری (ع)</a></li></ul></details></li>
+            <li><details><summary>امام زمان (عج)</summary><ul><li><a href="Dua_Ziarah/ziyarat_imam_mahdi/ziarat_aal_yasin.html">زیارت آل یاسین - امام زمان (عج)</a></li></ul></details></li>
+            <li><details><summary>زیارت‌های عمومی</summary><ul>
+                <li><a href="Dua_Ziarah/ziyarat_general/ziarat_jamia_kabira.html">زیارت جامعه کبیره</a></li>
+                <li><a href="Dua_Ziarah/ziyarat_general/ziarat_amin_allah.html">زیارت امین‌الله</a></li>
+            </ul></details></li>
+        </ul>
+    </details>
+</li>
 
 
 </ul>
